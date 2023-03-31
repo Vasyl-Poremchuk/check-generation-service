@@ -1,0 +1,202 @@
+[
+  {
+    "model": "check_service.printer",
+    "pk": 1,
+    "fields": {
+      "name": "HP LaserJet 400 M401",
+      "api_key": "d45d6636-5a18-4831-8606-5ca9b51beee9",
+      "check_type": "kitchen",
+      "point_id": 1
+    }
+  },
+  {
+    "model": "check_service.printer",
+    "pk": 2,
+    "fields": {
+      "name": "HP LaserJet P4515",
+      "api_key": "6ca6bd37-67df-4b51-afb1-bc797af5c88f",
+      "check_type": "client",
+      "point_id": 1
+    }
+  },
+  {
+    "model": "check_service.printer",
+    "pk": 3,
+    "fields": {
+      "name": "HP LaserJet 4350",
+      "api_key": "8d2b30a2-ed31-4205-9254-bde20c01ae78",
+      "check_type": "kitchen",
+      "point_id": 2
+    }
+  },
+  {
+    "model": "check_service.printer",
+    "pk": 4,
+    "fields": {
+      "name": "HP LaserJet 600 M601 M602 M603",
+      "api_key": "db245716-7ded-4bc7-ba64-e3acdf801047",
+      "check_type": "client",
+      "point_id": 2
+    }
+  },
+  {
+    "model": "check_service.printer",
+    "pk": 5,
+    "fields": {
+      "name": "HP Color LaserJet 5550 v3010.107",
+      "api_key": "590cf681-6cda-49e5-a69b-986d51ed596c",
+      "check_type": "kitchen",
+      "point_id": 3
+    }
+  },
+  {
+    "model": "check_service.printer",
+    "pk": 6,
+    "fields": {
+      "name": "HP LaserJet 4100 Series v.3010.107",
+      "api_key": "b9c20ba7-2a0f-407a-9378-bb1d8b76f9f4",
+      "check_type": "client",
+      "point_id": 3
+    }
+  },
+  {
+    "model": "check_service.printer",
+    "pk": 7,
+    "fields": {
+      "name": "HP LaserJet 4000 Series",
+      "api_key": "f2d61e3c-8cf1-4878-9af9-e63f8badc889",
+      "check_type": "kitchen",
+      "point_id": 4
+    }
+  },
+  {
+    "model": "check_service.printer",
+    "pk": 8,
+    "fields": {
+      "name": "HP Color LaserJet M553",
+      "api_key": "bda285e9-6143-4eee-9462-76b0f0213130",
+      "check_type": "client",
+      "point_id": 4
+    }
+  },
+  {
+    "model": "check_service.printer",
+    "pk": 9,
+    "fields": {
+      "name": "HP Color LaserJet 5550 v3010.107",
+      "api_key": "20caae19-4977-40d7-bde4-3f17bc8f3758",
+      "check_type": "kitchen",
+      "point_id": 5
+    }
+  },
+  {
+    "model": "check_service.printer",
+    "pk": 10,
+    "fields": {
+      "name": "HP Color LaserJet 3800",
+      "api_key": "50ba272a-ea1b-470d-809f-c68e9780b9f2",
+      "check_type": "client",
+      "point_id": 5
+    }
+  },
+  {
+    "model": "check_service.printer",
+    "pk": 11,
+    "fields": {
+      "name": "HP LaserJet 9000 Series",
+      "api_key": "6cd660fd-6777-4fdb-abf9-17780ed3dd84",
+      "check_type": "kitchen",
+      "point_id": 6
+    }
+  },
+  {
+    "model": "check_service.printer",
+    "pk": 12,
+    "fields": {
+      "name": "HP LaserJet 4050 Series",
+      "api_key": "059edf26-0ae6-4b3e-8698-fb5255a609c8",
+      "check_type": "client",
+      "point_id": 6
+    }
+  },
+  {
+    "model": "check_service.printer",
+    "pk": 13,
+    "fields": {
+      "name": "HP Color LaserJet CP3525",
+      "api_key": "e2bdfe5f-1ff9-4e34-a1d1-b2252909a69e",
+      "check_type": "kitchen",
+      "point_id": 7
+    }
+  },
+  {
+    "model": "check_service.printer",
+    "pk": 14,
+    "fields": {
+      "name": "HP LaserJet 9000 Series",
+      "api_key": "2adb0c3e-52be-48c5-a2d8-74af1ec84cf5",
+      "check_type": "client",
+      "point_id": 7
+    }
+  },
+  {
+    "model": "check_service.printer",
+    "pk": 15,
+    "fields": {
+      "name": "HP LaserJet 4200 Series",
+      "api_key": "248784f7-9192-43d7-9241-0da4194d04cb",
+      "check_type": "kitchen",
+      "point_id": 8
+    }
+  },
+  {
+    "model": "check_service.printer",
+    "pk": 16,
+    "fields": {
+      "name": "HP Color LaserJet CP3525",
+      "api_key": "8d66d0a7-933b-4073-a708-c4c4c414f91e",
+      "check_type": "client",
+      "point_id": 8
+    }
+  },
+  {
+    "model": "check_service.printer",
+    "pk": 17,
+    "fields": {
+      "name": "HP Color LaserJet CP3525",
+      "api_key": "dad6835f-60fe-4fa9-8cc6-31defa3e352e",
+      "check_type": "kitchen",
+      "point_id": 9
+    }
+  },
+  {
+    "model": "check_service.printer",
+    "pk": 18,
+    "fields": {
+      "name": "HP Color LaserJet CP3505",
+      "api_key": "5b9cb1f8-bed6-4c59-8f9c-4b4a549021aa",
+      "check_type": "client",
+      "point_id": 9
+    }
+  },
+  {
+    "model": "check_service.printer",
+    "pk": 19,
+    "fields": {
+      "name": "HP Color LaserJet CM6040 MFP",
+      "api_key": "4fd59901-e426-4177-9bd6-1d9dbfc31afc",
+      "check_type": "kitchen",
+      "point_id": 10
+    }
+  },
+  {
+    "model": "check_service.printer",
+    "pk": 20,
+    "fields": {
+      "name": "HP Color LaserJet CM6040 MFP",
+      "api_key": "2131fc6a-a604-4d1b-8366-df3147b7100f",
+      "check_type": "client",
+      "point_id": 10
+    }
+  }
+]
