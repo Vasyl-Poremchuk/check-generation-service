@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ check.check_type|capfirst }} Check</title>
+  <style>
+      table {
+          border-collapse: collapse;
+          width: 100%;
+      }
+
+      th, td {
+          text-align: center;
+          padding: 10px;
+          border: 1px solid #ddd;
+      }
+
+      th {
+          background-color: #f2f2f2;
+      }
+  </style>
+</head>
+<body>
+<h2>
+  <u>{{ check.check_type|capfirst }}</u> check for order: <u>{{ check.order.order_id }}</u>
+</h2>
+<p><strong>Order details</strong></p>
+<table>
+  <thead>
+  <tr>
+    <th>Dish Name</th>
+    <th>Amount</th>
+    <th>Price One Dish (USD)</th>
+    <th>Total Price (USD)</th>
+  </tr>
+  </thead>
+  <tbody>
+  {% for dish in check.order.dishes %}
+    <tr>
+      <td>{{ dish.name }}</td>
+      <td>{{ dish.amount }}</td>
+      <td>{{ dish.price_one_dish|floatformat:2 }}</td>
+      <td>{{ dish.total_price|floatformat:2 }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+<table>
+  <thead>
+  <tr>
+    <th style="text-align: left">
+      Total amount due: {{ total_amount_due|floatformat:2 }} USD
+    </th>
+  </tr>
+  </thead>
+</table>
+<p style="text-align: center">
+  <strong>
+    Thank you {{ check.order.client_name }} for ordering from our restaurant
+  </strong>
+</p>
+<p style="text-align: center">
+  <strong>Bon appetit</strong>
+</p>
+</body>
+</html>
