@@ -16,4 +16,4 @@ urlpatterns = [
     ),
 ]
 
-app_name = "check-service"
+app_name = "check_service"
