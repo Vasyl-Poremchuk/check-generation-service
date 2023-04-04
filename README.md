@@ -101,16 +101,42 @@ python manage.py test
 docker-compose up --build
 ```
 
-#### Create admin user & create schedule for running task.
+#### Apply database migrations:
 
-#### You will then be able to see all available tasks using the following endpoint [FLOWER](http://127.0.0.1:5555).
+```shell
+python manage.py migrate
+```
+
+#### Load data from fixture files:
+
+```shell
+python manage.py loaddata check_service/fixtures/printer_data.json check_service/fixtures/check_data.json
+```
+
+#### Start the server:
+
+```shell
+python manage.py runserver
+```
+
+#### Start a Celery worker, that runs task:
+
+```shell
+celery -A check_generation_service worker -l INFO
+```
+
+#### Start a Celery beat process that schedules periodic task:
+
+```shell
+celery -A check_generation_service beat -l INFO --scheduler django_celery_beat.schedulers:DatabaseScheduler
+```
+
+#### Create admin user & create schedule for running task.
 
 ### Available endpoints.
 
 #### All available endpoints can be checked on the next endpoint [SWAGGER](http://127.0.0.1:8000/api/schema/swagger/#/).
 
-![swagger](static/images/endpoints.png)
+![swagger](demo/images/endpoints.png)
 
-#### If the check is available for download, you can download it by moving to the next endpoint: **http://127.0.0.1:8000/api/download-checks/{check_id}/** & clicking the download button.
-
-![check](static/images/check.png)
+![check](demo/images/check.png)
